@@ -1,3 +1,6 @@
+@font-face { font-family: aller; src: url('menufont1.ttf');
+
+}
 .title {
   position: fixed;
   font-family: avenir;
@@ -10,7 +13,7 @@
 
 .menu-wrapper {
   color: #DFDCDC;
-  font-family: avenir;
+  font-family: aller;
   font-size: 125%;
   text-decoration: none;
   margin-left: 30%;
