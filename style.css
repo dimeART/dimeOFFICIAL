@@ -2,12 +2,14 @@
   position: fixed;
   font-family: avenir;
   font-size: 300%;
+  color: #DFDCDC;
   margin-left:5%;
   margin-top: -1.5%;
 
 }
 
 .menu-wrapper {
+  color: #DFDCDC;
   font-family: avenir;
   font-size: 125%;
   text-decoration: none;
@@ -92,4 +94,8 @@
   position: relative;
   margin-left: -310%;
 
+}
+
+.body1 {
+  background-color: #303030;
 }
