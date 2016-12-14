@@ -1,17 +1,17 @@
 @font-face { font-family: aller; src: url('menufont1.ttf');}
 @font-face { font-family: indub; src: url('indub.ttf');}
-@font-face { font-family: east; src: url('east.ttf');}
-@font-face { font-family: limon; src: url('lime.ttf');}
+@font-face { font-family: menufont4; src: url('menufont4.otf');}
+@font-face { font-family: menufont3; src: url('menufont3.ttf');}
 @font-face { font-family: plexi; src: url('plexifont.ttf');}
-@font-face { font-family: comix; src: url('comic.otf');}
+@font-face { font-family: menufont2; src: url('menufont2.ttf');}
 .title {
   position: fixed;
   font-family: plexi;
-  font-size: 600%;
+  font-size: 700%;
   /* this was 300% ^ for avenir */
   color: #DFDCDC;
-  margin-left:-6%;
-  margin-top: 14.5%;
+  margin-left:-8%;
+  margin-top: 16%;
   letter-spacing: 18px;
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(90deg);
@@ -20,8 +20,8 @@
 
 .menu-wrapper {
   color: #DFDCDC;
-  font-family: comix;
-  font-size: 200%;
+  font-family: menufont3;
+  font-size: 150%;
   /* this was 125% for avenir */
   text-decoration: none;
   margin-left: 30%;
@@ -63,7 +63,7 @@
 
 .community {
   position: fixed;
-  margin-left: 48%;
+  margin-left: 47%;
   margin-top: .45%;
 }
 
