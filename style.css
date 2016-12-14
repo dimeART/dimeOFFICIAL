@@ -7,11 +7,14 @@
 .title {
   position: fixed;
   font-family: plexi;
-  font-size: 400%;
+  font-size: 600%;
   /* this was 300% ^ for avenir */
   color: #DFDCDC;
-  margin-left:5%;
-  margin-top: -1.5%;
+  margin-left:-6%;
+  margin-top: 14.5%;
+  letter-spacing: 18px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(90deg);
 
 }
 
