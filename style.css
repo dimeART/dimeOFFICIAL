@@ -34,7 +34,7 @@
 .VA {
   position: fixed;
   margin-top: .5%;
-  margin-left:
+  margin-left: ;
 }
 
 .film {
@@ -109,4 +109,14 @@
 
 .body1 {
   background-color: #303030;
+}
+
+.uppertextbox {
+  width: 105%;
+  margin-left: -5%;
+  height: 6%;
+  margin-top: -92%;
+  position: fixed;
+  background-color: #DFDCDC;
+
 }
