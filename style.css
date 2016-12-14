@@ -19,17 +19,30 @@
 }
 
 .menu-wrapper {
-  color: #DFDCDC;
+  color: #303030;
   font-family: menufont3;
-  font-size: 150%;
+  font-size: 100%;
   /* this was 125% for avenir */
   text-decoration: none;
   margin-left: 30%;
-  margin-top: 1%;
+  margin-top: -4.5%;
   text-decoration: none;
   list-style-type; none;
   list-style: none;
+  position: absolute;
+  z-index: 2;
 }
+
+.uppertextbox {
+  width: 105%;
+  margin-left: -5%;
+  height: 6%;
+  margin-top: -92%;
+  position: fixed;
+  background-color: #DFDCDC;
+  z-index: 1;
+}
+
 
 .VA {
   position: fixed;
@@ -109,14 +122,4 @@
 
 .body1 {
   background-color: #303030;
-}
-
-.uppertextbox {
-  width: 105%;
-  margin-left: -5%;
-  height: 6%;
-  margin-top: -92%;
-  position: fixed;
-  background-color: #DFDCDC;
-
 }
