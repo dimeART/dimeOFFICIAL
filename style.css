@@ -10,7 +10,7 @@
   font-size: 700%;
   /* this was 300% ^ for avenir */
   color: #DFDCDC;
-  margin-left:-8%;
+  margin-left:3%;
   margin-top: 16%;
   letter-spacing: 18px;
   -webkit-transform: rotate(270deg);
@@ -20,26 +20,28 @@
 
 .menu-wrapper {
   color: #303030;
+  /* Correct Color :color: #303030 */
   font-family: menufont3;
   font-size: 100%;
   /* this was 125% for avenir */
   text-decoration: none;
-  margin-left: 30%;
-  margin-top: -4.5%;
+  margin-left: 29%;
+  margin-top: -4%;
   text-decoration: none;
   list-style-type; none;
   list-style: none;
-  position: absolute;
+  position: fixed;
   z-index: 2;
 }
 
 .uppertextbox {
   width: 105%;
-  margin-left: -5%;
-  height: 6%;
-  margin-top: -92%;
+  margin-left: -3%;
+  height: 8%;
+  margin-top: -17%;
   position: fixed;
   background-color: #DFDCDC;
+  /* Before I changed it : background-color: #DFDCDC;*/
   z-index: 1;
 }
 
