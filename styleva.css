@@ -1,0 +1,97 @@
+@font-face { font-family: plexi; src: url('plexifont.ttf');}
+@font-face { font-family: lobster; src: url('lobster.otf');}
+@font-face { font-family: robotbold; src: url('robotbold.ttf');}
+@font-face { font-family: robotmedium; src: url('robotmedium.ttf');}
+@font-face { font-family: robotlight; src: url('robotlight.ttf');}
+
+.menu-wrapper {
+  color: #DFDCDC;
+  /* Correct Color :color: #303030 */
+  font-family: lobster;
+  font-size: 100%;
+  /* this was 125% for avenir */
+  text-decoration: none;
+  margin-left: 29%;
+  margin-top: -4%;
+  text-decoration: none;
+  list-style-type; none;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.uppertextbox {
+  width: 1005%;
+  margin-top: -5%;
+  height: 8%;
+  margin-left: -30%;
+  position: absolute;
+  background-color: #303030;
+  /* Before I changed it : background-color: #DFDCDC;*/
+  z-index: 1;
+}
+
+
+.VA {
+  position: fixed;
+  margin-top: .5%;
+  margin-left: ;
+}
+
+.film {
+  position: fixed;
+ margin-left: 30%;
+ margin-top: .45%;
+}
+
+.photo {
+  position: fixed;
+ margin-left: 19%;
+ margin-top: .45%;
+}
+
+.music {
+  position: fixed;
+ margin-left: 8.5%;
+ margin-top: .45%;
+}
+
+.mob {
+  position: fixed;
+  margin-left: 39%;
+  margin-top: .45%;
+}
+
+.community {
+  position: fixed;
+  margin-left: 47%;
+  margin-top: .45%;
+}
+
+.VA:hover {
+ color: grey;
+}
+
+.film:hover {
+  color: grey;
+}
+
+.music:hover {
+  color: grey
+}
+
+.photo:hover {
+ color: grey;
+}
+
+.mob:hover {
+  color: grey;
+}
+
+.community:hover {
+  color: grey;
+}
+
+.body1 {
+  background-color: #DFDCDC;
+}
