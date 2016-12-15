@@ -1,5 +1,9 @@
 @font-face { font-family: menufont3; src: url('menufont3.ttf');}
 @font-face { font-family: plexi; src: url('plexifont.ttf');}
+@font-face { font-family: lobster; src: url('lobster.otf');}
+@font-face { font-family: robotbold; src: url('robotbold.ttf');}
+@font-face { font-family: robotmedium; src: url('robotmedium.ttf');}
+@font-face { font-family: robotlight; src: url('robotlight.ttf');}
 .title {
   position: fixed;
   font-family: plexi;
@@ -17,7 +21,7 @@
 .menu-wrapper {
   color: #DFDCDC;
   /* Correct Color :color: #303030 */
-  font-family: menufont3;
+  font-family: lobster;
   font-size: 100%;
   /* this was 125% for avenir */
   text-decoration: none;
