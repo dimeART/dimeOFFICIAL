@@ -30,16 +30,16 @@
   text-decoration: none;
   list-style-type; none;
   list-style: none;
-  position: fixed;
+  position: absolute;
   z-index: 2;
 }
 
 .uppertextbox {
-  width: 105%;
-  margin-left: -3%;
+  width: 1005%;
+  margin-top: -5%;
   height: 8%;
-  margin-top: -17%;
-  position: fixed;
+  margin-left: -30%;
+  position: absolute;
   background-color: #DFDCDC;
   /* Before I changed it : background-color: #DFDCDC;*/
   z-index: 1;
@@ -109,18 +109,33 @@
 .p1body {
  margin-left: 30%;
  margin-top: 5%;
- width: 200px;
+ width: 100%;
 }
 
 .m1image {
-  position: relative;
-  margin-top: 50%;
-}
-.m1image2 {
-  position: relative;
-  margin-left: -310%;
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  position: absolute;
 
 }
+
+.m2image {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 60%;
+}
+
+.m3image {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  position: absolute;
+  margin-left: 120%;
+}
+
 
 .body1 {
   background-color: #303030;
