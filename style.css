@@ -1,15 +1,11 @@
-@font-face { font-family: aller; src: url('menufont1.ttf');}
-@font-face { font-family: indub; src: url('indub.ttf');}
-@font-face { font-family: menufont4; src: url('menufont4.otf');}
 @font-face { font-family: menufont3; src: url('menufont3.ttf');}
 @font-face { font-family: plexi; src: url('plexifont.ttf');}
-@font-face { font-family: menufont2; src: url('menufont2.ttf');}
 .title {
   position: fixed;
   font-family: plexi;
   font-size: 700%;
   /* this was 300% ^ for avenir */
-  color: #DFDCDC;
+  color: #303030;
   margin-left:3%;
   margin-top: 16%;
   letter-spacing: 18px;
@@ -19,7 +15,7 @@
 }
 
 .menu-wrapper {
-  color: #303030;
+  color: #DFDCDC;
   /* Correct Color :color: #303030 */
   font-family: menufont3;
   font-size: 100%;
@@ -40,7 +36,7 @@
   height: 8%;
   margin-left: -30%;
   position: absolute;
-  background-color: #DFDCDC;
+  background-color: #303030;
   /* Before I changed it : background-color: #DFDCDC;*/
   z-index: 1;
 }
@@ -138,5 +134,5 @@
 
 
 .body1 {
-  background-color: #303030;
+  background-color: #DFDCDC;
 }
