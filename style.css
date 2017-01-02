@@ -39,7 +39,7 @@
   margin-top: -5%;
   height: 8%;
   margin-left: -30%;
-  position: absolute;
+  position: fixed;
   background-color: #303030;
   /* Before I changed it : background-color: #DFDCDC;*/
   z-index: 1;
