@@ -6,16 +6,12 @@
 @font-face { font-family: robotlight; src: url('robotlight.ttf');}
 .title {
   position: fixed;
-  font-family: plexi;
-  font-size: 700%;
-  /* this was 300% ^ for avenir */
-  color: #303030;
-  margin-left:3%;
-  margin-top: 16%;
-  letter-spacing: 18px;
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(90deg);
-
+  margin-top: .02%;
+  margin-left: -20%;
+  font-style: lobster;
+  font-weight: bolder;
+  font-size: 200%;
+  z-index: 1;
 }
 
 .menu-wrapper {
@@ -30,8 +26,8 @@
   text-decoration: none;
   list-style-type; none;
   list-style: none;
-  position: absolute;
-  z-index: 2;
+  position: absolute !important;
+  z-index: 300;
 }
 
 .uppertextbox {
@@ -42,44 +38,38 @@
   position: fixed;
   background-color: #303030;
   /* Before I changed it : background-color: #DFDCDC;*/
-  z-index: 1;
+  z-index: 200;
 }
 
+.logo1image {
+  position: fixed;
+  margin-top: -.09%;
+  margin-left: -28%;
+  z-index: 100;
+}
 
 .visual {
   position: fixed;
   margin-top: .5%;
-  margin-left: ;
+  margin-left: 35%;
 }
 
 .film {
   position: fixed;
- margin-left: 30%;
+ margin-left: 50%;
  margin-top: .45%;
 }
 
 .photo {
   position: fixed;
- margin-left: 19%;
+ margin-left: 40%;
  margin-top: .45%;
 }
 
 .music {
   position: fixed;
- margin-left: 8.5%;
+ margin-left: 45%;
  margin-top: .45%;
-}
-
-.mob {
-  position: fixed;
-  margin-left: 39%;
-  margin-top: .45%;
-}
-
-.community {
-  position: fixed;
-  margin-left: 47%;
-  margin-top: .45%;
 }
 
 .visual:hover {
@@ -149,4 +139,57 @@ don't know how to find it
  margin-top: -4%;
  z-index: 3;
 }
-*/
+*//* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 400 !important; /* Stay on top */
+    top: 0;
+    left: 0;
+    /*background-color: #444444; /* Black*/
+    background-color: #DFDCDC;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    width: 200px;
+    margin-top: 3.93% !important;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: lobster;
+    color: #303030;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    width: 0px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

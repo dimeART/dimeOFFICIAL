@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <html>
 	<head>
     	<title> </title>
@@ -7,21 +8,20 @@
     </head>
 
 	<body class="body1">
-    <div class="title">
-      dime
-    </div>
     <div class="menu-wrapper">
+			<div class="title">
+	    art
+		</div>
+				<img class="logo1image" src="dimelogo.png"/>
       <li class="photo"> photo </li>
         <li class="visual"> visual </li>
           <li class="film"> film </li>
             <li class="music"> music </li>
-							<li class="mob"> mob </li>
-								<li class="community"> community </li>
     </div>
 		<link rel="slideshow" type="java" href="slideshow.java">
 
-		<div class="uppertextbox">
-		<img class="logo1image" src="image1.png"/>
+<div class="uppertextbox">
+		<img class="logo1image" src="dimelogo.png"/>
 
 		</div>
 
@@ -30,7 +30,48 @@
 
 </div>
 
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Featured</a>
+  <a href="#">Collective</a>
 
+
+	<a href="#">Exlpore</a>
+  <a href="#">Trending</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div>
+<script>
+$(document).ready(function() {
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+});
+</script>
     </body>
 </html>
 
